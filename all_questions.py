@@ -8,55 +8,55 @@ def question1():
     answers = {}
 
     # type: bool (True/False)
-    answers["(a)"] = -1
+    answers["(a)"] = True
 
     # type: explanatory string (at least four words)
-    answers["(a) explain"] = ""
+    answers["(a) explain"] = "Agglomerative hierarchical clustering procedure can handle the outliers better than K- means, because Agglomerative hierarchical cluster builds clusters by progressively merging similar clusters together where as k-means clustering allots each point to the nearest centroid, making it sensitive to outliers."
 
     # type: bool (True/False)
-    answers["(b)"] = -1
+    answers["(b)"] = False
 
     # type: explanatory string (at least four words)
-    answers["(b) explain"] = ""
+    answers["(b) explain"] = "because in both the cases there is a chance that they give different results in the consecutive runs."
 
     # type: bool (True/False)
-    answers["(c)"] = -1
+    answers["(c)"] = False
 
     # type: explanatory string (at least four words)
-    answers["(c) explain"] = ""
+    answers["(c) explain"] = "eventhough k-means algorithm takes less time when compared to other algorithms but it is not the most efficient algorithm possible."
 
     # type: bool (True/False)
-    answers["(d)"] = -1
+    answers["(d)"] = True
 
     # type: explanatory string (at least four words)
-    answers["(d) explain"] = ""
+    answers["(d) explain"] = "The SSE (sum of squared residuals) may increase ,because during the clustering process in k-means it introduces new centroid which leads to increase in distance between the centroid and the data points."
 
     # type: bool (True/False)
-    answers["(e)"] = -1
+    answers["(e)"] = True
 
     # type: explanatory string (at least four words)
     answers["(e) explain"] = ""
 
     # type: bool (True/False)
-    answers["(f)"] = -1
+    answers["(f)"] = False
 
     # type: explanatory string (at least four words)
     answers["(f) explain"] = ""
 
     # type: bool (True/False)
-    answers["(g)"] = -1
+    answers["(g)"] = True
 
     # type: explanatory string (at least four words)
     answers["(g) explain"] = ""
 
     # type: bool (True/False)
-    answers["(h)"] = -1
+    answers["(h)"] = False
 
     # type: explanatory string (at least four words)
     answers["(h) explain"] = ""
 
     # type: bool (True/False)
-    answers["(i)"] = -1
+    answers["(i)"] = False
 
     # type: explanatory string (at least four words)
     answers["(i) explain"] = ""
