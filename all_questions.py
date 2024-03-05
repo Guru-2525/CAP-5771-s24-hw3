@@ -35,31 +35,31 @@ def question1():
     answers["(e)"] = True
 
     # type: explanatory string (at least four words)
-    answers["(e) explain"] = ""
+    answers["(e) explain"] = "Higher cluster cohesiveness is the outcome of lower SSE in k-means clustering since the data points are closer to the cluster centers."
 
     # type: bool (True/False)
     answers["(f)"] = True
 
     # type: explanatory string (at least four words)
-    answers["(f) explain"] = ""
+    answers["(f) explain"] = "Better cluster separation is achieved with higher SSB because k-means clustering results in a larger distance between the clusters."
 
     # type: bool (True/False)
     answers["(g)"] = False
 
     # type: explanatory string (at least four words)
-    answers["(g) explain"] = ""
+    answers["(g) explain"] = "By default, K-means gives cohesion precedence over separation."
 
     # type: bool (True/False)
     answers["(h)"] = True
 
     # type: explanatory string (at least four words)
-    answers["(h) explain"] = ""
+    answers["(h) explain"] = "During K-means clustering, the sum of SSE and BSS (SSE + BSS) is in fact a constant (equal to TSS)."
 
     # type: bool (True/False)
     answers["(i)"] = True
 
     # type: explanatory string (at least four words)
-    answers["(i) explain"] = ""
+    answers["(i) explain"] = "The two unique metrics used in k-means clustering are cohesiveness and separation. Whereas cohesiveness measures the degree of association between the data points within a cluster, separation measures how distinct a cluster is from its neighbors. "
 
     return answers
 
@@ -74,19 +74,19 @@ def question2():
     answers["(a)"] = True
 
     # type: explanatory string (at least four words)
-    answers["(a) explain"] = ""
+    answers["(a) explain"] = "Every shaded circle will have one cluster centroid in its center when the k-means algorithm is finished."
 
     # type: bool (True/False)
     answers["(b)"] = False
 
     # type: explanatory string (at least four words)
-    answers["(b) explain"] = ""
+    answers["(b) explain"] = "Upon completion of the k-means algorithm, a portion of the two ultimate clusters will contain points from both shaded zones."
 
     # type: bool (True/False)
     answers["(c)"] = True
 
     # type: explanatory string (at least four words)
-    answers["(c) explain"] = ""
+    answers["(c) explain"] = "The k-means final clustering includes an empty cluster after the process is finished."
 
     return answers
 
@@ -125,7 +125,7 @@ def question4():
     answers["(a) Circle (c)"] = 1
 
     # type: explanatory string (at least four words)
-    answers["(a) explain"] = ""
+    answers["(a) explain"] = "optimal clustering will happen"
 
     # type: int
     answers["(b) Circle (a)"] = 1
@@ -137,7 +137,7 @@ def question4():
     answers["(b) Circle (c)"] = 1
 
     # type: explanatory string (at least four words)
-    answers["(b) explain"] = ""
+    answers["(b) explain"] = "Given that circles A and B and circles B and C have comparable lengths, each centroid should converge inside its original circle."
 
     # type: int
     answers["(c) Circle (a)"] = 0
@@ -149,7 +149,7 @@ def question4():
     answers["(c) Circle (c)"] = 2
 
     # type: explanatory string (at least four words)
-    answers["(c) explain"] = ""
+    answers["(c) explain"] = "In this distribution, the nearest centroid to the initial cluster is ensured for efficient clustering."
 
     return answers
 
@@ -164,13 +164,13 @@ def question5():
     answers["(a)"] = {'Group A','Group B'}
 
     # type: explanatory string (at least four words)
-    answers["(a) explain"] = ""
+    answers["(a) explain"] = "Need to give explanation" # mistake
 
     # type: set
     answers["(b)"] = {'Group A','Group C'}
 
     # type: explanatory string (at least four words)
-    answers["(b) explain"] = ""
+    answers["(b) explain"] = "Need to give exlanation" #mistake
 
     return answers
 
@@ -294,16 +294,16 @@ def question8():
     answers["(b) Row 4"] = "cluster-d"
 
     # type: explanatory string (at least four words)
-    answers["(b) Row 1 explain"] = ""
+    answers["(b) Row 1 explain"] = "Need to explain"  # mistake
 
     # type: explanatory string (at least four words)
-    answers["(b) Row 2 explain"] = ""
+    answers["(b) Row 2 explain"] = "Need to explain"  # mistake
 
     # type: explanatory string (at least four words)
-    answers["(b) Row 3 explain"] = ""
+    answers["(b) Row 3 explain"] = "Need to explain"  # mistake
 
     # type: explanatory string (at least four words)
-    answers["(b) Row 4 explain"] = ""
+    answers["(b) Row 4 explain"] = "Need to explain"  # mistake
 
     return answers
 
@@ -330,7 +330,7 @@ def question9():
     answers["(e)"] = ['partitional', 'exclusive', 'complete']
 
     # type: explanatory string (at least four words)
-    answers["(e) explain"] = ""
+    answers["(e) explain"] = "Need to explain"  # mistake
 
     return answers
 
